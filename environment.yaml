@@ -1,0 +1,22 @@
+name: bayesian-mmm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyterlab
+  - ipykernel
+  - pymc=5      
+  - arviz        
+  - statsmodels  
+  - tqdm         
+  - pip
+  - pip:
+      - opt_einsum  
